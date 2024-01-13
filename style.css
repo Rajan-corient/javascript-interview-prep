@@ -1,0 +1,12 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: lightsteelblue;
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
