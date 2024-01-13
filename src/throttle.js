@@ -52,6 +52,6 @@ function optimizedThrottle(fn, delay = 500) {
 const bestThrottleFn = optimizedThrottle(normalFn, 1000);
 inputEle.addEventListener("input", (e) => {
   //   console.log("Normal fn", e.target.value);
-  //   betterThrottleFn(e);
-  bestThrottleFn(e);
+  betterThrottleFn(e);
+  //   bestThrottleFn(e);
 });
